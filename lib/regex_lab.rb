@@ -1,3 +1,5 @@
+require 'pry'
+
 def starts_with_a_vowel?(word)
   word.scan(/\b[aeiouAEIOU]\w/).length > 0
   #\b is boundary of words in string
