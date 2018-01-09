@@ -2,6 +2,7 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   word.scan(/\b[aeiouAEIOU]\w/).length > 0
+  #or word.match(/^[aeiouAEIOU]\w+/ ? true : false)
   #\b is boundary of words in string
   #/ to show regex
   #w is to find
